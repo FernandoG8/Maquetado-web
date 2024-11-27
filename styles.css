@@ -1,0 +1,40 @@
+/* styles.css */
+.form-step {
+  transition: all 0.3s ease;
+}
+
+.shipping-option {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shipping-option:hover {
+  background-color: #f8f9fa;
+}
+
+.shipping-option.selected {
+  border-color: #0d6efd;
+  background-color: #e7f1ff;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  height: 5px;
+}
+.navigation-buttons {
+  transition: opacity 0.3s ease-out;
+  opacity: 1;
+}
+
+.navigation-buttons.oculto {
+  opacity: 0;
+  pointer-events: none;
+}
